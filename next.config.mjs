@@ -22,6 +22,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',
+  basePath: '/marine-conservation',
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
